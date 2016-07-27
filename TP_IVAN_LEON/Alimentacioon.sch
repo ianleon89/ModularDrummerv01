@@ -1,0 +1,184 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:aic1117-33cy
+LIBS:ej2cese
+LIBS:MIproy1-cache
+LIBS:nxp_armmcu
+LIBS:DCV1_0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM7805 U1
+U 1 1 5782E47A
+P 4450 2750
+F 0 "U1" H 4600 2554 50  0000 C CNN
+F 1 "LM7805" H 4450 2950 50  0000 C CNN
+F 2 "" H 4450 2750 50  0001 C CNN
+F 3 "" H 4450 2750 50  0000 C CNN
+	1    4450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AIC1117-33CY #U06
+U 1 1 5782E8B8
+P 5750 2700
+F 0 "#U06" H 5850 2400 60  0001 C CNN
+F 1 "AIC1117-33CY" H 5800 2850 60  0000 C CNN
+F 2 "" H 5750 2900 60  0000 C CNN
+F 3 "" H 5750 2900 60  0000 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2700 5300 2700
+Wire Wire Line
+	4450 3000 4450 3250
+Wire Wire Line
+	5750 3100 5750 3250
+$Comp
+L GND #PWR07
+U 1 1 5784395E
+P 5100 3250
+F 0 "#PWR07" H 5100 3000 50  0001 C CNN
+F 1 "GND" H 5100 3100 50  0000 C CNN
+F 2 "" H 5100 3250 50  0000 C CNN
+F 3 "" H 5100 3250 50  0000 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2700 4050 2700
+Wire Wire Line
+	6200 2700 6725 2700
+$Comp
+L Cap_1206 C7
+U 1 1 5784479D
+P 4950 2950
+F 0 "C7" H 4950 2850 30  0000 C CNN
+F 1 "Cap_1206" H 4950 3025 30  0000 C CNN
+F 2 "TP:c_1206" H 4975 2950 60  0001 C CNN
+F 3 "" H 4975 2950 60  0000 C CNN
+	1    4950 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Cap_1206 C6
+U 1 1 5784480A
+P 3850 3000
+F 0 "C6" H 3850 2900 30  0000 C CNN
+F 1 "Cap_1206" H 3850 3075 30  0000 C CNN
+F 2 "TP:c_1206" H 3875 3000 60  0001 C CNN
+F 3 "" H 3875 3000 60  0000 C CNN
+	1    3850 3000
+	0    1    1    0   
+$EndComp
+Connection ~ 3850 2700
+Wire Wire Line
+	3850 3125 3850 3250
+Connection ~ 4450 3250
+Wire Wire Line
+	4950 2825 4950 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	4950 3075 4950 3250
+Connection ~ 4950 3250
+$Comp
+L Cap_1206 C8
+U 1 1 57844A8E
+P 6350 3025
+F 0 "C8" H 6350 2925 30  0000 C CNN
+F 1 "Cap_1206" H 6350 3100 30  0000 C CNN
+F 2 "TP:c_1206" H 6375 3025 60  0001 C CNN
+F 3 "" H 6375 3025 60  0000 C CNN
+	1    6350 3025
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 3250 6350 3150
+Wire Wire Line
+	3400 3250 6350 3250
+Connection ~ 5750 3250
+Connection ~ 5100 3250
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 5785C6B9
+P 3675 2625
+F 0 "#FLG08" H 3675 2720 50  0001 C CNN
+F 1 "PWR_FLAG" H 3675 2805 50  0000 C CNN
+F 2 "" H 3675 2625 50  0000 C CNN
+F 3 "" H 3675 2625 50  0000 C CNN
+	1    3675 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3675 2625 3675 2700
+Connection ~ 3675 2700
+Wire Wire Line
+	3850 2875 3850 2700
+$Comp
+L CONN_01X02 P1
+U 1 1 5798EC3A
+P 3200 2750
+F 0 "P1" H 3200 2900 50  0000 C CNN
+F 1 "POWER IN" V 3300 2750 50  0000 C CNN
+F 2 "" H 3200 2750 50  0001 C CNN
+F 3 "" H 3200 2750 50  0000 C CNN
+	1    3200 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 2800 3400 3250
+Connection ~ 3850 3250
+Text GLabel 5100 2425 2    40   Output ~ 0
+5V
+Text GLabel 6725 2700 2    40   Output ~ 0
+3.3V
+Wire Wire Line
+	5100 2425 5025 2425
+Wire Wire Line
+	5025 2425 5025 2700
+Connection ~ 5025 2700
+Wire Wire Line
+	6350 2700 6350 2900
+$EndSCHEMATC
