@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"43045-0215";"";
+"TraceParts.PartVersion";"1.0.6";"";
+"SUPPLIER";"Molex";"";
+"TraceParts.PartStatus";"Published";"";
+"RS_STOCK_NUMBER";"6882750P";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Microfit 3.0 Vert SMT/clip DR Tin 2way";"";
+"TraceParts.InstanceId";"10-15082011-0864745J3ZLUB05R74Y6IC5W6YQSOWA";"";
+"TraceParts.PartTitle";"Microfit 3.0 Vert SMT/clip DR Tin 2way";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TIMESTAMP";"29/7/2011 16:03:01";"";
+"REVISION";"A";"";
+"TraceParts.PartNumber";"10-15082011-086474";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"RS_COMPONENTS:/F_RS_COMPONENTS/PSSS_435563/PSS_435683/PSF_435704/10-15082011-086474";"";

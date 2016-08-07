@@ -1,4 +1,4 @@
-update=19/07/2016 19:28:33
+update=06/08/2016 12:38:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,5 @@ LibName30=librerias/aic1117-33cy
 LibName31=I:/UBA/Curso diseno circuitos impresos/Proyecto 2/ejlibcese/ej2cese
 LibName32=I:/UBA/Curso diseno circuitos impresos/Proyecto1/MIproy1-cache
 LibName33=C:/Program Files/KiCad/share/kicad/library/nxp_armmcu
+LibName34=DCV1_0-cach
+LibName35=C:/Program Files/KiCad/share/kicad/library/power

@@ -32,6 +32,7 @@ LIBS:aic1117-33cy
 LIBS:ej2cese
 LIBS:MIproy1-cache
 LIBS:nxp_armmcu
+LIBS:DCV1_0-cach
 LIBS:DCV1_0-cache
 EELAYER 25 0
 EELAYER END
