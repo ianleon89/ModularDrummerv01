@@ -3,7 +3,7 @@
   (general
     (links 127)
     (no_connects 0)
-    (area 106.604999 75.616999 193.115001 131.139001)
+    (area 98.197999 71.2724 199.517001 140.816001)
     (thickness 1.6)
     (drawings 9)
     (tracks 499)
@@ -13,9 +13,16 @@
   )
 
   (page A4)
+  (title_block
+    (title "PCB ")
+    (date 04/08/2016)
+    (rev 0)
+    (company "AJT DRUMS")
+  )
+
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -37,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -67,7 +74,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x3ffff_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -88,9 +95,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory TPGerbers/))
   )
 
   (net 0 "")

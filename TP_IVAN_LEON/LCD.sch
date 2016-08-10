@@ -39,10 +39,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Conexión del LCD alfanumerico"
+Date "12/07/2016"
+Rev "0"
+Comp "AJT DRUMS"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -3,7 +3,7 @@
   (general
     (links 127)
     (no_connects 0)
-    (area 106.604999 75.616999 193.115001 131.139001)
+    (area 98.197999 71.2724 199.517001 140.816001)
     (thickness 1.6)
     (drawings 9)
     (tracks 499)
@@ -13,6 +13,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "PCB ")
+    (date 04/08/2016)
+    (rev 0)
+    (company "AJT DRUMS")
+  )
+
   (layers
     (0 F.Cu signal hide)
     (31 B.Cu signal hide)
@@ -37,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -594,7 +601,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 2 /Teclado/BUTTON_ON))
-    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/R_1206_HandSoldering.wrl"
+    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/C_1206_HandSoldering.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -621,7 +628,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 3 /Teclado/BUTTON_ENTER))
-    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/R_1206_HandSoldering.wrl"
+    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/C_1206_HandSoldering.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -648,7 +655,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 4 /Teclado/BUTTON_UP))
-    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/R_1206_HandSoldering.wrl"
+    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/C_1206_HandSoldering.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -675,7 +682,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 5 /Teclado/BUTTON_DOWN))
-    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/R_1206_HandSoldering.wrl"
+    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/C_1206_HandSoldering.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -702,7 +709,7 @@
       (net 1 GND))
     (pad 2 smd rect (at -1.397 0 270) (size 1.6002 1.8034) (layers F.Cu F.Paste F.Mask)
       (net 6 /Teclado/BUTTON_CANCEL))
-    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/R_1206_HandSoldering.wrl"
+    (model "I:/UBA/Curso diseno circuitos impresos/TP/TP.3dshapes/C_1206_HandSoldering.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
