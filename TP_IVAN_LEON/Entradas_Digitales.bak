@@ -56,6 +56,7 @@ F 0 "J1" H 7800 3450 60  0000 C CNN
 F 1 "Teclado" H 7800 2700 60  0000 C CNN
 F 2 "TP:Connector_Molex_PicoBlade_53047-0810" H 7750 3075 60  0001 C CNN
 F 3 "" H 7750 3075 60  0000 C CNN
+F 4 "WM1737-ND" H 7875 3075 60  0001 C CNN "Digikey#"
 	1    7875 3075
 	1    0    0    -1  
 $EndComp
