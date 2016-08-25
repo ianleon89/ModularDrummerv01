@@ -1,0 +1,191 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:aic1117-33cy
+LIBS:ej2cese
+LIBS:MIproy1-cache
+LIBS:nxp_armmcu
+LIBS:DCV1_0-cach
+LIBS:DCV1_0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "Alimentacion"
+Date "12/07/2016"
+Rev "0"
+Comp "AJT DRUMS"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR06
+U 1 1 5784395E
+P 5100 3250
+F 0 "#PWR06" H 5100 3000 50  0001 C CNN
+F 1 "GND" H 5100 3100 50  0000 C CNN
+F 2 "" H 5100 3250 50  0000 C CNN
+F 3 "" H 5100 3250 50  0000 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cap_1206 C6
+U 1 1 5784480A
+P 3325 3000
+F 0 "C6" H 3325 2900 30  0000 C CNN
+F 1 "10uf" H 3325 3075 30  0000 C CNN
+F 2 "TP:c_1206" H 3350 3000 60  0001 C CNN
+F 3 "" H 3350 3000 60  0000 C CNN
+F 4 "490-6473-6-ND" H 3325 3000 60  0001 C CNN "Digikey#"
+	1    3325 3000
+	0    1    1    0   
+$EndComp
+Connection ~ 3325 2700
+Wire Wire Line
+	3325 3125 3325 3250
+Wire Wire Line
+	4950 2825 4950 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	4950 3075 4950 3250
+Connection ~ 4950 3250
+$Comp
+L Cap_1206 C8
+U 1 1 57844A8E
+P 6350 3025
+F 0 "C8" H 6350 2925 30  0000 C CNN
+F 1 "1uf" H 6350 3100 30  0000 C CNN
+F 2 "TP:c_1206" H 6375 3025 60  0001 C CNN
+F 3 "" H 6375 3025 60  0000 C CNN
+F 4 "399-1254-2-ND" H 6350 3025 60  0001 C CNN "Digikey#"
+	1    6350 3025
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 2700
+Wire Wire Line
+	6350 3250 6350 3150
+Connection ~ 5100 3250
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5785C6B9
+P 3150 2625
+F 0 "#FLG07" H 3150 2720 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 2805 50  0000 C CNN
+F 2 "" H 3150 2625 50  0000 C CNN
+F 3 "" H 3150 2625 50  0000 C CNN
+	1    3150 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2625 3150 2700
+Connection ~ 3150 2700
+Wire Wire Line
+	3325 2875 3325 2700
+$Comp
+L CONN_01X02 P1
+U 1 1 5798EC3A
+P 2675 2750
+F 0 "P1" H 2675 2900 50  0000 C CNN
+F 1 "POWER IN" V 2775 2750 50  0000 C CNN
+F 2 "TP:Connector_Molex_PicoBlade_53047-0210" H 2675 2750 50  0001 C CNN
+F 3 "" H 2675 2750 50  0000 C CNN
+F 4 "WM1731-ND" H 2675 2750 60  0001 C CNN "Digikey#"
+	1    2675 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2875 2800 2875 3250
+Connection ~ 3325 3250
+Text GLabel 5100 2425 2    40   Output ~ 0
+5V
+Text GLabel 6725 2700 2    40   Output ~ 0
+3.3V
+Wire Wire Line
+	5100 2425 5025 2425
+Wire Wire Line
+	5025 2425 5025 2700
+Connection ~ 5025 2700
+Wire Wire Line
+	6350 2700 6350 2900
+$Comp
+L LD1117S12TR U5
+U 1 1 57A6696E
+P 5775 2750
+F 0 "U5" H 5775 3000 50  0000 C CNN
+F 1 "LD1117S12TR" H 5775 2950 50  0000 C CNN
+F 2 "TP:SOT-223" H 5775 2850 50  0001 C CNN
+F 3 "" H 5775 2750 50  0000 C CNN
+F 4 "497-4240-2-ND" H 5775 2750 60  0001 C CNN "Digikey#"
+	1    5775 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 2700 6725 2700
+Wire Wire Line
+	5775 3000 5775 3250
+Connection ~ 5775 3250
+$Comp
+L LM117H U1
+U 1 1 57A689CC
+P 4225 2750
+F 0 "U1" H 4025 2950 50  0000 C CNN
+F 1 "78L05" H 4225 2950 50  0000 L CNN
+F 2 "TP:SOT-223" H 4225 2850 50  0001 C CIN
+F 3 "" H 4225 2750 50  0000 C CNN
+F 4 "497-1183-2-ND" H 4225 2750 60  0001 C CNN "Digikey#"
+	1    4225 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4225 3250
+Wire Wire Line
+	4225 3000 4225 3250
+Wire Wire Line
+	2875 2700 3825 2700
+Wire Wire Line
+	4625 2700 5375 2700
+Wire Wire Line
+	2875 3250 6350 3250
+$Comp
+L Cap_1206 C7
+U 1 1 5784479D
+P 4950 2950
+F 0 "C7" H 4950 2850 30  0000 C CNN
+F 1 "1uf" H 4950 3025 30  0000 C CNN
+F 2 "TP:c_1206" H 4975 2950 60  0001 C CNN
+F 3 "" H 4975 2950 60  0000 C CNN
+F 4 "399-1254-2-ND" H 4950 2950 60  0001 C CNN "Digikey#"
+	1    4950 2950
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
